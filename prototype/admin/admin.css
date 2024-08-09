@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+a{  font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.main-content{
+    background: rgb(226, 243, 255);
+}
+
+.col-4{
+    text-align: center;
+    width: 20%;
+    background: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.clearfix{
+    float:none;
+    clear: both;
+}
+
+/* Manage Admin */
+
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background: rgb(33, 34, 34);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background: black;
+}
+
+.btn-secondary{
+    background: rgb(0, 0, 0);
+    padding: 5px;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 11px;
+    border-radius: 10px
+}
+
+.btn-secondary:hover{
+    background: rgb(255, 30, 0);
+    color: aliceblue;
+}
+
+/* Add Admin */
+
+.tbl-add{
+    width: 30%;
+}
+
+/*error or sucess sucess*/
+
+.sucesss{
+    color: green;
+}
+
+.error{
+    color: red;
+}
